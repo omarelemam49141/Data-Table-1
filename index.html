@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Adding</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="section">
+                <span>Show</span>
+                <select name="count" id="selectInput">
+                    <option value="all">All</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                </select>
+                <span>rows</span>
+            </div>
+            <div class="section">
+                <span>Search</span>
+                <input type="search" id="searchInput" name="search">
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        <div class="content">
+                            <h3 class="colTitle">ID</h3>
+                            <div id="id">
+                                <p class="up">&Delta;</p>
+                                <p class="down">&nabla;</p>
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="content">
+                            <h3 class="colTitle">Name</h3>
+                            <div id="name">
+                                <p class="up">&Delta;</p>
+                                <p class="down">&nabla;</p>
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="content">
+                            <h3 class="colTitle">Position</h3>
+                            <div id="position">
+                                <p class="up">&Delta;</p>
+                                <p class="down">&nabla;</p>
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="content">
+                            <h3 class="colTitle">Office</h3>
+                            <div id="office">
+                                <p class="up">&Delta;</p>
+                                <p class="down">&nabla;</p>
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="content">
+                            <h3 class="colTitle">Age</h3>
+                            <div id="age">
+                                <p class="up">&Delta;</p>
+                                <p class="down">&nabla;</p>
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="content">
+                            <h3 class="colTitle">Start date</h3>
+                            <div id="startDate">
+                                <p class="up">&Delta;</p>
+                                <p class="down">&nabla;</p>
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="content">
+                            <h3 class="colTitle delete-header">Delete</h3>
+                        </div>
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="script/index.js"></script>
+</body>
+</html>
